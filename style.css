@@ -1,0 +1,96 @@
+body {
+  background: #fff;
+  color: #bb99dd;
+  font-family: Poppins;
+  text-align: center;
+}
+.switcher {
+  background: #fff;
+  width: 55px;
+  height: 25px;
+  position: fixed;
+  right: 10px;
+  border-radius: 50px;
+  border: 1px solid #bb99dd;
+}
+
+.togle {
+  background: #bb99dd;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: relative;
+  top: 5px;
+}
+
+.themeColor{
+  background: #111;
+}
+.themeButtom{
+  background: #111;
+}
+
+
+#container {
+  width: 500px;
+  margin: auto;
+}
+
+.contentTree {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+.profiletab {
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+.profilePhoto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 2%;
+  border: solid 2px #bb99dd;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+}
+
+ul {
+  border: 1px solid #bb99dd;
+  width: 250px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+}
+
+.link {
+  color: #bb99dd;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  position: relative;
+  right: 9%;
+  top: 25%;
+}
+
+.link:hover {
+  color: #5d4c6e;
+}
+
+span img {
+  padding: 10px;
+}
+
+.changes {
+  transform: translatex(35px);
+  transition-duration: 1s;
+}
